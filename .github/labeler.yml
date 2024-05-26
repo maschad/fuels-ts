@@ -1,0 +1,14 @@
+labels:
+  - label: "feat"
+    matcher:
+      title: "^feat:"
+  - label: "bug"
+    matcher:
+      title: "^fix:"
+  - label: "chore"
+    matcher:
+      title: ["^chore:", "^build:", "^ci:"]
+      title_exclude: "^ci\\(changesets\\):"
+  - label: "docs"
+    matcher:
+      title: "^docs:"
